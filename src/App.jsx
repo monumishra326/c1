@@ -83,7 +83,7 @@ function App() {
     }}>
         -
     </button>
-    <span className="totalBooks">1</span>
+    <span className="totalBooks">{inkpen}</span>
     <div className="total">{book+pen+notebook+inkpen}</div>
 </div>
 </div>
