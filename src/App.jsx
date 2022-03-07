@@ -3,10 +3,10 @@ import './App.css';
 import { useState } from "react"
 
 function App() {
-  const[book,setBook]= useState(23);
-  const[pen,setPen]= useState(20);
-  const[notebook,setNotebook] = useState(50);
-  const[inkpen,setInkpen] = useState(70);
+  const[book,setBook]= useState(13);
+  const[pen,setPen]= useState(10);
+  const[notebook,setNotebook] = useState(44);
+  const[inkpen,setInkpen] = useState(78);
 
   const bookHandler = (val)=>{
     setBook(book+val);
