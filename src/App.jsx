@@ -51,7 +51,7 @@ function App() {
     }}>
         -
     </button>
-    <span className="totalBooks">{pen}</span>
+    <span className="totalPens">{pen}</span>
 </div>
 <div className="items">
     <span>Notebooks:</span>
@@ -67,7 +67,7 @@ function App() {
     }} >
         -
     </button>
-    <span className="totalBooks">{notebook}</span>
+    <span className="totalNotebooks">{notebook}</span>
 </div>
 <div className="items">
     <span>Inkpens:</span>
@@ -83,7 +83,7 @@ function App() {
     }}>
         -
     </button>
-    <span className="totalBooks">{inkpen}</span>
+    <span className="totalInkpens">{inkpen}</span>
     <div className="total">{book+pen+notebook+inkpen}</div>
 </div>
 </div>
