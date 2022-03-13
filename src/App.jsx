@@ -38,7 +38,7 @@ function App() {
     </button>
     <span className="totalBooks">{book}</span>
     <div className="items">
-    <span>Pen:</span>
+    <span>Pens:</span>
     <button className="addPen" onClick={() =>{
       penHandler(1);
     }}>
@@ -55,7 +55,7 @@ function App() {
 </div>
 <div className="items">
     <span>Notebooks:</span>
-    <button className="addNotebooks" onClick={() =>{
+    <button className="addNotebook" onClick={() =>{
       notebookHandler(1);
     }}>
         +
@@ -71,12 +71,12 @@ function App() {
 </div>
 <div className="items">
     <span>Inkpens:</span>
-    <button className="inkpen" onClick={() =>{
+    <button className="addInkpen" onClick={() =>{
       inkpenHandler(1);
     }}>
         +
     </button>
-    <button className="reminkpen" onClick={()=>{
+    <button className="remInkpen" onClick={()=>{
       if(inkpen>=1){
         inkpenHandler(-1);
       }
